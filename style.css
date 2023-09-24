@@ -1,0 +1,110 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: -webkit-repeating-linear-gradient(#000000, #232323, #1d3849);
+    display: flex;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper{
+background-color: #000000;
+height: 572px;
+border-radius: 8px;
+padding-top: 10px;
+padding-left: 7px;
+padding-right: 7px;
+box-shadow: 0 4px 30px white;
+}
+
+
+.screen{
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 45px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+    font-family: 'Seven Segment', sans-serif;
+}
+
+.brand{
+    color: white;
+    justify-content: space-between;
+    margin-top: 8px;
+    border-bottom: 1px solid #a2bbcf;
+    font-size: 23px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.wrapper3{
+    background-color: #505050;
+    padding: 4px ;
+}
+
+.calc-button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.calc-button{
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    height: 65px;
+    font-weight: bold;
+}
+
+.calc-button:last-child{
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #fff;
+    background-color: #1d3849;
+}
+
+.calc-button:last-child:hover{
+    transform: translateY(-3px);
+    
+}
+
+.calc-button:hover{
+    transform: translateY(-3px);
+}
+
+.calc-button:active{
+    background-color:grey;
+}
+
+.double{
+    flex-basis: 47%;
+    background-color: #dd2d00;
+}
+
+.triple{
+    flex-basis: 73%;
+}
